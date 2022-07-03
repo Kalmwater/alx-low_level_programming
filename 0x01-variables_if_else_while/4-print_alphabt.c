@@ -6,13 +6,13 @@
 */
 int main(void)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+char a;
+for (a = 'a'; a <= 'z'; ch++)
 {
-if(ch != 'q' && ch != 'e')
+if(a == 'q' || a == 'a')
 {
-putchar(ch);
+continue;
 }
-putchar(10); /* this is an ascii code for new line*/
-return (0)
+putchar (a);
+return (0);
 }
