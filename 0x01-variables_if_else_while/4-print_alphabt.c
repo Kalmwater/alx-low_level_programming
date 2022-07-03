@@ -2,19 +2,17 @@
 /**
 *main - entry point
 *
-* Return: always returns 0
+* Return: always returs 0
 */
 int main(void)
 {
 char a;
 for (a = 'a'; a <= 'z'; a++)
 {
-if(a == 'q'; a <= 'e'; a++)
-{
+if (a =='e'|| a == 'q')
 continue;
 else
-putchar (a);
+putchar(a);
 }
-putchar('\n');
 return (0);
 }
