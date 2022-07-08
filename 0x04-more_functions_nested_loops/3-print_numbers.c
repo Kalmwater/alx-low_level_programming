@@ -1,0 +1,15 @@
+#include "main.h"
+
+/**
+* print_numbers -> print numbers
+*/
+
+void print_numbers(void)
+{
+	int x;
+
+	for (x = 0; < 10; x++)
+		_putchar(x + '0');
+
+	-putchar('\n');
+}
